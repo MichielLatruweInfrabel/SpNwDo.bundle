@@ -18,21 +18,24 @@
 		Platform="AutoCAD*"
 		SeriesMin="R19.0" 
 		SeriesMax="R24.2" 
-		SupportPath="./Contents/Block/;./Contents/Help/" 
+		SupportPath="./Contents/Block/;./Contents/Help/;./Contents/Src/;./Contents/LISP/" 
 		ToolPalettePath="./Contents/Toolpalettes/" 
 	/>
  
-	<Components>
-	
-		<ComponentEntry 
-			AppName = "SpNWDo" 
-			version = "1.0.0"	
-			ModuleName="./Contents/CUI/SpNwDoCui.cuix"	
 
-		/>
-		
-		
-	
-	</Components>
+  <Components>
+
+    <!-- Load CUI -->
+    <Component ModuleName="./Contents/CUI/SpNwDoCui.cuix" />
+
+    <!-- Optional: LISP loader (debug / additional checks) -->
+    <Component ModuleName="./Contents/LISP/UpdatePrinterPath.lsp">
+      <Loader LoadOnAutoCADStartup="True"
+              ModuleName="./Contents/LISP/UpdatePrinterPath.lsp" />
+    </Component>
+
+  </Components>
+
+
   
 </ApplicationPackage>
