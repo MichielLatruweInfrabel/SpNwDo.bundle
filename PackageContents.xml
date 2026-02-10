@@ -1,91 +1,93 @@
-K<?xml version="1.0" encoding="utf-8"?>
-<ApplicationPackage
-	SchemaVersion="1.0"
+<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage 
+	SchemaVersion="1.0" 
 	AppVersion="1.0"
-	ProductCode="{33BD53A9-17C7-49BF-BB30-6FAA33C49D1A}"
-	Name="Signaling Projects - Tekenbureau Gent"
-	Icon="./Contents/CUI/Icons/ppa3do64.ico"
-	Helpfile="./Contents/Help/Help.pdf"
+    ProductCode="{33BD53A9-17C7-49BF-BB30-6FAA33C49D1A}"
+    Name="Signaling Projects - Tekenbureau Gent"
+    Icon="./Contents/CUI/Icons/ppa3do64.ico"
+    Helpfile="./Contents/Help/Help.pdf"
 >
-
-	<CompanyDetails
-		Name="Signaling Projects - Tekenbureau Gent"
+ 
+	<CompanyDetails 
+		Name="Signaling Projects - Tekenbureau Gent" 
 		Email="michiel.latruwe@infrabel.be"
 	/>
-
-	<RuntimeRequirements
-		OS="Win64"
+ 
+	<RuntimeRequirements 
+		OS="Win64" 
 		Platform="AutoCAD*"
-		SeriesMin="R19.0"
-		SeriesMax="R24.2"
-		SupportPath="./Contents/Block/;./Contents/Help/;./Contents/Src/;./Contents/LISP/"
-		ToolPalettePath="./Contents/Toolpalettes/"
+		SeriesMin="R19.0" 
+		SeriesMax="R24.2" 
+		SupportPath="./Contents/Block/;./Contents/Help/" 
+		ToolPalettePath="./Contents/Toolpalettes/" 
 	/>
-
-
+ 
 	<Components>
+	
+
 
 		<ComponentEntry
 			AppName="AlstomApplicatie"
-			version="1.0.0"
+			Version="1.0.0"
 			ModuleName="./Contents/Plugin/AlstomApplicatie.dll"
 		/>
 
 		<ComponentEntry
 			AppName="alstomToPdf"
-			version="1.0.0"
+			Version="1.0.0"
 			ModuleName="./Contents/Plugin/alstomToPdf.dll"
 		/>
 
 		<ComponentEntry
 			AppName="Cat2NB"
-			version="1.0.0"
+			Version="1.0.0"
 			ModuleName="./Contents/Plugin/Cat2NB.dll"
 		/>
 
 		<ComponentEntry
 			AppName="Cat2VerzekerdeVoeding"
-			version="1.0.0"
+			Version="1.0.0"
 			ModuleName="./Contents/Plugin/Cat2VerzekerdeVoeding.dll"
 		/>
 
 		<ComponentEntry
 			AppName="CmdTools"
-			version="1.0.0"
+			Version="1.0.0"
 			ModuleName="./Contents/Plugin/CmdTools.dll"
 		/>
 
 		<ComponentEntry
 			AppName="CreateVk"
-			version="1.0.0"
+			Version="1.0.0"
 			ModuleName="./Contents/Plugin/CreateVk.dll"
 		/>
 
 		<ComponentEntry
 			AppName="ImportNewAlstom"
-			version="1.0.0"
+			Version="1.0.0"
 			ModuleName="./Contents/Plugin/ImportNewAlstom.dll"
 		/>
 
 		<ComponentEntry
 			AppName="LokalisatieSeinen"
-			version="1.0.0"
+			Version="1.0.0"
 			ModuleName="./Contents/Plugin/LokalisatieSeinen.dll"
 		/>
 
 		<ComponentEntry
 			AppName="PlotPdf"
-			version="1.0.0"
+			Version="1.0.0"
 			ModuleName="./Contents/Plugin/PlotPdf.dll"
 		/>
 
 		<ComponentEntry
 			AppName="SimisW"
-			version="1.0.0"
+			Version="1.0.0"
 			ModuleName="./Contents/Plugin/SimisW.dll"
 		/>
-
+		
+		
+	
 	</Components>
-
-
+  
 </ApplicationPackage>
