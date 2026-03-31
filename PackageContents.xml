@@ -16,28 +16,14 @@
 	<RuntimeRequirements 
 		OS="Win64" 
 		Platform="AutoCAD*"
-		SeriesMin="R19.0" 
-		SeriesMax="R24.2" 
+		SeriesMin="R25.0" 
+		SeriesMax="R25.1" 
 		SupportPath="./Contents/Block/;./Contents/Help/" 
 		ToolPalettePath="./Contents/Toolpalettes/" 
 	/>
  
 	<Components>
 	
-
-
-		<ComponentEntry
-			AppName="AlstomApplicatie"
-			Version="1.0.0"
-			ModuleName="./Contents/Plugin/AlstomApplicatie.dll"
-		/>
-
-		<ComponentEntry
-			AppName="alstomToPdf"
-			Version="1.0.0"
-			ModuleName="./Contents/Plugin/alstomToPdf.dll"
-		/>
-
 		<ComponentEntry
 			AppName="Cat2NB"
 			Version="1.0.0"
@@ -84,6 +70,12 @@
 			AppName="SimisW"
 			Version="1.0.0"
 			ModuleName="./Contents/Plugin/SimisW.dll"
+		/>
+
+		<ComponentEntry
+			AppName="ToolPalette"
+			Version="1.0.0"
+			ModuleName="./Contents/Plugin/ToolPalette.dll"
 		/>
 		
 		
