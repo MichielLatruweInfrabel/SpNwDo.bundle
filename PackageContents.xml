@@ -78,6 +78,12 @@
 			ModuleName="./Contents/Plugin/ToolPalette.dll"
 		/>
 		
+		<ComponentEntry
+			AppName="InfrabelSettings"
+			Version="1.0.0"
+			ModuleName="./Contents/Lisp/InfrabelSettings.lsp"
+		/>
+		
 		
 	
 	</Components>
