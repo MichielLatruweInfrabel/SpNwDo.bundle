@@ -23,6 +23,12 @@
 	/>
  
 	<Components>
+
+					<ComponentEntry
+		AppName="CadStandard"
+		AppDescription="CadStandard"
+		ModuleName="./Contents/Plugin/CadStandard.dll"
+		/>
 	
 		<ComponentEntry
 			AppName="Cat2NB"
